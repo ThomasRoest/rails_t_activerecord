@@ -55,94 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1487,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/application.yml",
-			"settings":
-			{
-				"buffer_size": 410,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/database.yml",
-			"settings":
-			{
-				"buffer_size": 1706,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20150711173839_create_customers.rb",
-			"settings":
-			{
-				"buffer_size": 205,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20150711174259_add_email_address.rb",
-			"settings":
-			{
-				"buffer_size": 114,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20150711175038_create_time_entries.rb",
-			"settings":
-			{
-				"buffer_size": 283,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/schema.rb",
-			"settings":
-			{
-				"buffer_size": 1653,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/20150711175724_create_employees.rb",
-			"settings":
-			{
-				"buffer_size": 174,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/customer.rb",
-			"settings":
-			{
-				"buffer_size": 65,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/employee.rb",
-			"settings":
-			{
-				"buffer_size": 65,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/time_entry.rb",
-			"settings":
-			{
-				"buffer_size": 87,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -172,6 +84,18 @@
 	},
 	"file_history":
 	[
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/rails_t_activerecord.sublime-workspace",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/Gemfile",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/config/application.yml",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/config/database.yml",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/db/migrate/20150711173839_create_customers.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/db/migrate/20150711174259_add_email_address.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/db/migrate/20150711175038_create_time_entries.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/db/schema.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/db/migrate/20150711175724_create_employees.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/app/models/customer.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/app/models/employee.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/app/models/time_entry.rb",
 		"/home/thomas/projects/data-vacatures/app/assets/stylesheets/modules/_icons.css.scss",
 		"/home/thomas/projects/data-vacatures/app/controllers/account_activations_controller.rb",
 		"/home/thomas/projects/data-vacatures/app/controllers/free_subscriptions_controller.rb",
@@ -287,299 +211,8 @@
 	"groups":
 	[
 		{
-			"selected": 10,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1487,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								279,
-								279
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/application.yml",
-					"settings":
-					{
-						"buffer_size": 410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								409,
-								409
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config/database.yml",
-					"settings":
-					{
-						"buffer_size": 1706,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "db/migrate/20150711173839_create_customers.rb",
-					"settings":
-					{
-						"buffer_size": 205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								205,
-								205
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "db/migrate/20150711174259_add_email_address.rb",
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "db/migrate/20150711175038_create_time_entries.rb",
-					"settings":
-					{
-						"buffer_size": 283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								283,
-								283
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "db/schema.rb",
-					"settings":
-					{
-						"buffer_size": 1653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								589,
-								589
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "db/migrate/20150711175724_create_employees.rb",
-					"settings":
-					{
-						"buffer_size": 174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/models/customer.rb",
-					"settings":
-					{
-						"buffer_size": 65,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/models/employee.rb",
-					"settings":
-					{
-						"buffer_size": 65,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/models/time_entry.rb",
-					"settings":
-					{
-						"buffer_size": 87,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								87,
-								87
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -630,7 +263,7 @@
 		[
 			[
 				"",
-				"/home/thomas/projects/rails_tutorials/rails_t_activerecord/app/models/time_entry.rb"
+				"/home/thomas/projects/rails_tutorials/rails_t_activerecord/Gemfile"
 			],
 			[
 				"accou",
@@ -1082,7 +715,7 @@
 		[
 			[
 				"",
-				"/home/thomas/projects/rails_tutorials/rails_t_activerecord/rails_t_activerecord.sublime-workspace"
+				"/home/thomas/projects/rails_tutorials/rails_t_activerecord/config/rails_t_activerecord.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1091,6 +724,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 124.0,
+	"side_bar_width": 269.0,
 	"status_bar_visible": true
 }
