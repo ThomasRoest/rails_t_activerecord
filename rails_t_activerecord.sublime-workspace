@@ -55,6 +55,118 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/models/account.rb",
+			"settings":
+			{
+				"buffer_size": 466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/account_entry.rb",
+			"settings":
+			{
+				"buffer_size": 141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/time_entry.rb",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/project.rb",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/accounts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 421,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/employees_controller.rb",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/employee.rb",
+			"settings":
+			{
+				"buffer_size": 345,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1501,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/schema.rb",
+			"settings":
+			{
+				"buffer_size": 1941,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/seeds.rb",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 328,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/customers_controller.rb",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/accounts/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 241,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -84,6 +196,10 @@
 	},
 	"file_history":
 	[
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/README.rdoc",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/lib/tasks/fake.rake",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/app/controllers/customers_controller.rb",
+		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/test/fixtures/time_entries.yml",
 		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/rails_t_activerecord.sublime-workspace",
 		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/Gemfile",
 		"/home/thomas/projects/rails_tutorials/rails_t_activerecord/config/application.yml",
@@ -211,8 +327,377 @@
 	"groups":
 	[
 		{
+			"selected": 13,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/models/account.rb",
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/account_entry.rb",
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/time_entry.rb",
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/project.rb",
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/accounts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/employees_controller.rb",
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/models/employee.rb",
+					"settings":
+					{
+						"buffer_size": 345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "db/schema.rb",
+					"settings":
+					{
+						"buffer_size": 1941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1167,
+								1167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "db/seeds.rb",
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/controllers/customers_controller.rb",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/views/accounts/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -222,7 +707,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -262,16 +747,76 @@
 		"selected_items":
 		[
 			[
+				"accountsinde",
+				"app/views/accounts/index.html.erb"
+			],
+			[
+				"accounts",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"inde",
+				"app/views/accounts/index.html.erb"
+			],
+			[
+				"cus",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"customerscon",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"empl",
+				"app/models/employee.rb"
+			],
+			[
+				"applca",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"accountscon",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"account",
+				"app/models/account.rb"
+			],
+			[
+				"project",
+				"app/models/project.rb"
+			],
+			[
+				"time",
+				"app/models/time_entry.rb"
+			],
+			[
+				"accountentry",
+				"app/models/account_entry.rb"
+			],
+			[
+				"entry",
+				"test/fixtures/time_entries.yml"
+			],
+			[
 				"",
 				"/home/thomas/projects/rails_tutorials/rails_t_activerecord/Gemfile"
 			],
 			[
 				"accou",
 				"/home/thomas/projects/rails_tutorials/rails_t_activerecord/db/migrate/20150711173839_create_customers.rb"
-			],
-			[
-				"time",
-				"app/models/time_entry.rb"
 			],
 			[
 				"emp",
@@ -334,10 +879,6 @@
 				"app/views/posts/index.html.erb"
 			],
 			[
-				"gemfile",
-				"Gemfile"
-			],
-			[
 				"containers",
 				"app/assets/stylesheets/layout/_containers.css.scss"
 			],
@@ -392,10 +933,6 @@
 			[
 				"frees",
 				"app/views/free_subscriptions/new.html.erb"
-			],
-			[
-				"account",
-				"app/controllers/account_activations_controller.rb"
 			],
 			[
 				"icon",
@@ -538,10 +1075,6 @@
 				"js/applicationText.js"
 			],
 			[
-				"inde",
-				"index.html"
-			],
-			[
 				"touch",
 				"app/assets/javascripts/touchhelpers.js"
 			],
@@ -584,10 +1117,6 @@
 			[
 				"jobs",
 				"spec/models/job_spec.rb"
-			],
-			[
-				"sche",
-				"db/schema.rb"
 			],
 			[
 				"coursesin",
@@ -724,6 +1253,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 269.0,
+	"side_bar_width": 131.0,
 	"status_bar_visible": true
 }

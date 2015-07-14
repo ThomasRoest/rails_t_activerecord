@@ -1,6 +1,10 @@
 class AccountsController < ApplicationController
   def index
-    @accounts = Customer.all
+    if params[:name] == "thomas"
+      @accounts = Customer.where("name LIKE ?", "th%")
+    else
+      @accounts = Customer.all
+    end
   end
 
   def show
