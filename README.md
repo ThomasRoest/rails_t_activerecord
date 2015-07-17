@@ -1,6 +1,6 @@
 ### fake data
 
-populate the db with 'faker' gem and db seeds file
+populate the db with 'faker' gem and rake fake file
 
 
 ### AR query interface
@@ -47,3 +47,13 @@ finds the sum of the employees, can be more efficient with a db index
 **AR callbacks**
 
 callback chain: before_validation, before_create etc.
+
+**states**
+
+use AASM for managing states in models
+
+**model versioning**
+
+tracking model versions, recording changes and recovering deleted objects
+
+papertrail gem

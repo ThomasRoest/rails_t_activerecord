@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150714174216) do
+ActiveRecord::Schema.define(version: 20150717160500) do
 
   create_table "account_entries", force: :cascade do |t|
     t.float    "time",        limit: 24
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20150714174216) do
     t.integer  "account_id",  limit: 4
     t.string   "type",        limit: 255
     t.decimal  "amount",                  precision: 10
+    t.string   "aasm_state",  limit: 255
   end
 
   create_table "accounts", force: :cascade do |t|
@@ -53,5 +54,16 @@ ActiveRecord::Schema.define(version: 20150714174216) do
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
   end
+
+  create_table "versions", force: :cascade do |t|
+    t.string   "item_type",  limit: 255,   null: false
+    t.integer  "item_id",    limit: 4,     null: false
+    t.string   "event",      limit: 255,   null: false
+    t.string   "whodunnit",  limit: 255
+    t.text     "object",     limit: 65535
+    t.datetime "created_at"
+  end
+
+  add_index "versions", ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id", using: :btree
 
 end
