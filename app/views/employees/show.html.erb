@@ -3,7 +3,7 @@
 <h3>Submit time form</h3>
 <%= form_for [@employee, TimeEntry.new] do |f| %>
   <%= f.label :customer %>
-  <%= f.collection_select(:account_id, Customer.all, :id, :name) %>
+  <%= f.collection_select(:account_id, Customer.limit(5), :id, :name) %>
   <%= f.label :time %>
   <%= f.text_field :time, :value => 1.0 %>
   <%= f.submit %>
@@ -14,7 +14,8 @@
 <% @employee.time_entries.each do |entry| %>
   <div class="entry">
     <%= entry.time %>
-    <%= entry.account.name %>
     <%= entry.created_at %>
+    <%= entry.amount %>
+
   </div>
 <% end %>

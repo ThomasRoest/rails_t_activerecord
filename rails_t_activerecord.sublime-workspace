@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"zip",
+				"zipcode"
+			],
+			[
 				"paddi",
 				"padding-left: "
 			],
@@ -59,7 +63,7 @@
 			"file": "app/models/account.rb",
 			"settings":
 			{
-				"buffer_size": 466,
+				"buffer_size": 472,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +79,7 @@
 			"file": "app/models/time_entry.rb",
 			"settings":
 			{
-				"buffer_size": 159,
+				"buffer_size": 604,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,7 +135,7 @@
 			"file": "db/schema.rb",
 			"settings":
 			{
-				"buffer_size": 1941,
+				"buffer_size": 2359,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,7 +143,7 @@
 			"file": "db/seeds.rb",
 			"settings":
 			{
-				"buffer_size": 497,
+				"buffer_size": 729,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,7 +151,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 328,
+				"buffer_size": 1119,
 				"line_ending": "Unix"
 			}
 		},
@@ -164,6 +168,62 @@
 			"settings":
 			{
 				"buffer_size": 241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20150714152123_add_customer_info_to_accounts.rb",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/customer.rb",
+			"settings":
+			{
+				"buffer_size": 358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20150714172125_add_index_to_employees.rb",
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20150714174216_add_money.rb",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/controllers/time_entries_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/time_entries_controller.rb",
+			"settings":
+			{
+				"buffer_size": 234,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/employees/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 516,
 				"line_ending": "Unix"
 			}
 		}
@@ -290,6 +350,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"buil",
 			"http",
 			"url",
 			"product",
@@ -327,7 +388,7 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -335,23 +396,25 @@
 					"file": "app/models/account.rb",
 					"settings":
 					{
-						"buffer_size": 466,
+						"buffer_size": 472,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								466,
-								466
+								472,
+								472
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -387,20 +450,22 @@
 					"file": "app/models/time_entry.rb",
 					"settings":
 					{
-						"buffer_size": 159,
+						"buffer_size": 604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								159,
-								159
+								266,
+								266
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -446,13 +511,15 @@
 						"selection":
 						[
 							[
-								203,
-								203
+								266,
+								266
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -571,15 +638,15 @@
 					"file": "db/schema.rb",
 					"settings":
 					{
-						"buffer_size": 1941,
+						"buffer_size": 2359,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1167,
-								1167
+								0,
+								0
 							]
 						],
 						"settings":
@@ -599,20 +666,22 @@
 					"file": "db/seeds.rb",
 					"settings":
 					{
-						"buffer_size": 497,
+						"buffer_size": 729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								497,
-								497
+								580,
+								580
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -625,15 +694,15 @@
 					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 328,
+						"buffer_size": 1119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								167,
-								167
+								366,
+								366
 							]
 						],
 						"settings":
@@ -641,7 +710,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -684,13 +753,197 @@
 						"selection":
 						[
 							[
-								63,
-								63
+								220,
+								220
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "db/migrate/20150714152123_add_customer_info_to_accounts.rb",
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/models/customer.rb",
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "db/migrate/20150714172125_add_index_to_employees.rb",
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "db/migrate/20150714174216_add_money.rb",
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "test/controllers/time_entries_controller_test.rb",
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/controllers/time_entries_controller.rb",
+					"settings":
+					{
+						"buffer_size": 234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/views/employees/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -747,6 +1000,82 @@
 		"selected_items":
 		[
 			[
+				"timeentr",
+				"app/models/time_entry.rb"
+			],
+			[
+				"employeeshow",
+				"app/views/employees/show.html.erb"
+			],
+			[
+				"empsho",
+				"app/views/employees/show.html.erb"
+			],
+			[
+				"timeentriescon",
+				"app/controllers/time_entries_controller.rb"
+			],
+			[
+				"time",
+				"test/controllers/time_entries_controller_test.rb"
+			],
+			[
+				"accoun",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"emploshow",
+				"app/views/employees/show.html.erb"
+			],
+			[
+				"timeetr",
+				"app/models/time_entry.rb"
+			],
+			[
+				"add",
+				"db/migrate/20150714174216_add_money.rb"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"customer.rb",
+				"app/models/customer.rb"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"addinde",
+				"db/migrate/20150714172125_add_index_to_employees.rb"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"account",
+				"app/controllers/accounts_controller.rb"
+			],
+			[
+				"dbsee",
+				"db/seeds.rb"
+			],
+			[
+				"customerrb",
+				"app/models/customer.rb"
+			],
+			[
+				"dbseeds",
+				"db/seeds.rb"
+			],
+			[
+				"custoin",
+				"db/migrate/20150714152123_add_customer_info_to_accounts.rb"
+			],
+			[
 				"accountsinde",
 				"app/views/accounts/index.html.erb"
 			],
@@ -761,10 +1090,6 @@
 			[
 				"cus",
 				"app/controllers/customers_controller.rb"
-			],
-			[
-				"rea",
-				"README.md"
 			],
 			[
 				"sche",
@@ -791,16 +1116,8 @@
 				"app/controllers/accounts_controller.rb"
 			],
 			[
-				"account",
-				"app/models/account.rb"
-			],
-			[
 				"project",
 				"app/models/project.rb"
-			],
-			[
-				"time",
-				"app/models/time_entry.rb"
 			],
 			[
 				"accountentry",
@@ -1193,46 +1510,6 @@
 			[
 				"postsin",
 				"app/views/posts/index.html.erb"
-			],
-			[
-				"linkscon",
-				"app/controllers/links_controller.rb"
-			],
-			[
-				"postnew",
-				"app/views/posts/new.html.erb"
-			],
-			[
-				"postinde",
-				"app/views/posts/index.html.erb"
-			],
-			[
-				"posts",
-				"app/controllers/posts_controller.rb"
-			],
-			[
-				"postsnew",
-				"app/views/posts/new.html.erb"
-			],
-			[
-				"route",
-				"config/routes.rb"
-			],
-			[
-				"gemfil",
-				"Gemfile"
-			],
-			[
-				"about",
-				"app/views/static_pages/about.html.erb"
-			],
-			[
-				"sta",
-				"app/controllers/static_pages_controller.rb"
-			],
-			[
-				"hom",
-				"app/views/static_pages/home.html.erb"
 			]
 		],
 		"width": 0.0
@@ -1253,6 +1530,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 131.0,
+	"side_bar_width": 74.0,
 	"status_bar_visible": true
 }
